@@ -1,4 +1,4 @@
-= PreMeditated =
+# PreMeditated 
 
 A Pine script for Trading view.
 
