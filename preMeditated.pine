@@ -139,8 +139,8 @@ shortTermDays_adj =
 
 med1TermDays_adj  = 
   not allowAdamOverride ? med1TermDays :
-  ticker == "BTCUSD" ? 38 : 
-  ticker == "BLX"    ? 38 : 
+  ticker == "BTCUSD" ? 55 : 
+  ticker == "BLX"    ? 55 : 
   ticker == "BATETH" ? 38 : 
   ticker == "ADABTC" ? 28 : 
   ticker == "BNBBTC" ? 114 : 
@@ -292,8 +292,8 @@ longTermDays_adj  =
 
 vlongTermDays_adj = 
   not allowAdamOverride ? vlongTermDays :
-  ticker == "BTCUSD" ? 340 : 
-  ticker == "BLX"    ? 340 : 
+  ticker == "BTCUSD" ? 365 : 
+  ticker == "BLX"    ? 365 : 
   ticker == "BATETH" ? 330 : 
   ticker == "ADABTC" ? 340 : 
   ticker == "BNBBTC" ? 365 : 
